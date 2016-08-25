@@ -2,7 +2,8 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           revision="refs/tags/android-7.0.0_r1" />
   <remote  name="nerull7"
            fetch="https://github.com/nerull7/"
            revision="nougat" />
@@ -373,7 +374,7 @@
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" remote="nerull7" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/display" remote="nerull7" name="android_platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
